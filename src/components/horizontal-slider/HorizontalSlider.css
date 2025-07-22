@@ -1,0 +1,67 @@
+/* HorizontalSlider Component Styles */
+.horizontal-slider-container {
+  width: 100%;
+  /* No forzamos estilos de layout, dejamos que la clase externa los maneje */
+}
+
+.slider-item {
+  width: 100%;
+  position: relative;
+  /* No forzamos layout interno, respetamos el contenido */
+}
+
+/* Slide Animations - Reutilizables */
+.slider-item.slide-left {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+.slider-item.slide-right {
+  animation: slideInRight 0.4s ease-out;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Counter Styles - Reutilizable */
+.slider-counter {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+/* Navigation Dots Container - Reutilizando estilos globales */
+.slider-navigation-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+}
+
+/* 
+  Los estilos de .nav-dot ya están definidos en index.css
+  Reutilizamos esos estilos globales para mantener consistencia
+*/

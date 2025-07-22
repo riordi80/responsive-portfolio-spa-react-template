@@ -1,0 +1,47 @@
+Hero / Presentación
+
+    Foto profesional o avatar.
+
+    Nombre completo.
+
+    Título corto: “Periodista & Gestora de Contenidos”.
+
+    Frase destacada o tagline (ej. “Contar historias con estrategia y propósito”).
+
+Sobre mí
+
+    Breve biografía.
+
+    Habilidades principales.
+
+    Especialización en medios, comunicación corporativa, contenidos digitales, etc.
+
+Servicios
+
+    Redacción de contenidos.
+
+    Gestión de gabinetes de prensa.
+
+    Comunicación corporativa.
+
+    SEO / Social Media / Branding (si aplica).
+
+Proyectos o Experiencia
+
+    Casos destacados o colaboraciones con medios o empresas.
+
+    Muestra de trabajos: artículos, campañas, notas de prensa, etc.
+
+    (Puede incluir enlaces externos o una galería).
+
+Testimonios
+
+    Frases de clientes o colaboradores (se puede dejar placeholder por ahora).
+
+Contacto
+
+    Formulario.
+
+    Email profesional.
+
+    Redes sociales: LinkedIn, Twitter, Medium o cualquier otro canal profesional.
